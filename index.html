@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="nficon2016.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="footer.css">
+    <title>Netflix</title>
+</head>
+<body>
+   <div class="wrapper">
+       <div class="header">
+           <div class="logo">
+               <a href="#"><img src="https://logodownload.org/wp-content/uploads/2014/10/netflix-logo-5-1.png" alt="logo"></a>
+           </div>
+       </div>
+       <div class="login_body">
+           <div class="login_box">
+               <h2>Iniciar sesión</h2>
+              
+               <form action="">
+                   <div class="input_wrap">
+                    <input type="text" id="email" required>
+                    <label>Email o número de teléfono</label>
+                  
+                   </div>
+                   <div class="input_wrap">
+                    <input type="password" id="contra" required >
+                    <label class="labeldo">Contraseña</label>
+
+                   </div>
+                   <div class="input_wrap">
+                       <button type="button" onclick="funcion()" >Iniciar sesión </button>
+                   </div>
+                   <div class="support">
+                       <div class="remember">
+                           <span><input type="checkbox" style="margin: 0; padding: 0; height: 13;"></span>
+                           <span>Recuérdame</span>
+                       </div>
+                       <div class="need_help">
+                        <a href="helpme.html" style="color:#636c72 ;"> ¿Necesitas ayuda?</a>
+                       </div>
+                       </div>
+                       <div class="login_footer">
+                           <div class="login_fb">
+                               <span><img src="https://static.xx.fbcdn.net/rsrc.php/yD/r/d4ZIVX-5C-b.ico" alt="fb"></span>
+                               <span> <a href="#">Iniciar sesión con Facebook</a> </span>
+                           </div>
+                           <!--<div class="sing_up">
+                               <p>¿Primera vez en Netflix? <a href="#">  Suscríbete ya.</a></p>
+                           </div-->
+                           <div class="terms">
+                               <p>Esta página está protegida por Google reCAPTCHA para comprobar que no eres un robot. <a href="#">Más info.</a></p>
+                           </div>
+                   </div>
+               </form>
+           </div>
+
+       </div>
+       <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-cool">
+                    <p >¿Preguntas? Llama al 
+                        <a href="tel:+1 (408) 600-1718  (USA)">+1 (408) 600-1718  (USA)</a></p>
+                </div>
+                <div class="footer-col">
+                   
+                    <ul>
+                        <li><a href="#">Preguntas frecuentes</a></li>
+                        <li><a href="#">Centro de ayuda</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="footer-col">
+                   
+                    <ul>
+                        <li><a href="#">Términos de uso</a></li>
+                        <li><a href="#">Privacidad</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                  
+                    <ul>
+                        <li><a href="#">Preferencias de cookies</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+              
+                    <ul><li><a href="#">Información corporativa</a></li></ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    function funcion() {
+        var email = document.getElementById('email');
+        var contracena = document.getElementById('contra')
+        if (email.value !== "" && contracena.value !== "" ) {
+            location.href="segundo.html"
+        }
+            else {email.value !== '' && contracena.value !== '' 
+                    alert('No haz ingresado los datos')
+    }
+        
+    }
+</script>
+</html>
