@@ -259,13 +259,13 @@ body{
   }
     
     .login_box .input_wrap .labeldo {
-        top: 35.5%;
+        top: 36.5%;
         left: 12%;
     }
 
     .input_wrap input:focus ~ .labeldo,
     .input_wrap input:valid ~ .labeldo{
-    top: 33.2%;
+    top: 34.2%;
     left: 14%;
     display: 14px;
     font-size: 11px;
