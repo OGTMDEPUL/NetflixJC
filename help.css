@@ -227,7 +227,7 @@ body{
 
     .input_wrap input:focus ~ label,
     .input_wrap input:valid ~ label{
-    top: 38.7%;
+    top: 39.7%;
     left: 15%;
 
   }
