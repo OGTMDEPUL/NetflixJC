@@ -227,14 +227,14 @@ body{
 
     .input_wrap input:focus ~ label,
     .input_wrap input:valid ~ label{
-    top: 39.7%;
+    top: 38.5%;
     left: 15%;
 
   }
     
 
     .wrapper::before{
-        height: 145%;
+        height: 121.3%;
     }
     .login_fb span  a{
         font-size: 15px;
